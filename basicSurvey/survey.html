@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>First web site</title>
+  </head>
+  <body>
+    <div class="center">
+    <header class="header">
+    <!--1.-->
+    <h1 id="title" class="h1size">My First Survey Form</h1>
+    <!--2-->
+    <p id="description" class="no-top-margin">A recreation of a standard survey form</p>
+    </header>
+    </div>
+    <!--3-->
+    <form id="survey-form" class="s-form">
+      <!--4--> <!--10--> <!--11-->
+      <div class="main-div">
+      <div><label id="name-label" > Name <input id="name" type="text" required placeholder="Enter your name" class="alone" /></label></div>
+      <!--5 & 6-->
+      <div><label id="email-label"> Email <input id="email" type="email" required placeholder="Enter your email" class="alone"/></label></div>
+      <!--7 & 8 & 9-->
+     <div> <label id="number-label"> Age <input id="number" type="number" min="13" max="120" placeholder="Enter your age" class="alone"/></label></div>
+      <!--12-->
+      <div><label>Gender
+        <select id="dropdown" class="alone">
+          <option disabled selected>Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+      </label>
+      <!--13-->
+      <div><p class="spacing">Do you like my first website</p><label><div class="block"><input type="radio" name="radio" value="Yes" /> Yes </label>
+      <label><input type="radio" name="radio" value="No" class="marginB"/> No </label></div></div>
+      <!--14--> 
+      
+      <p class="spacing">How would you rate my first website? </p>
+      <div class="block2">
+      <div><label><input type="checkbox" value="0" /> Terrible </label></div>
+     <div><label><input type="checkbox" value="1"/> Poor </label></div>
+      <div><label><input type="checkbox" value="2"/> Ok </label></div>
+      <div><label><input type="checkbox" value="3"/> Good </label></div>
+      <div><label><input type="checkbox" value="4"/> Decent </label></div>
+      <div><label><input type="checkbox" value="5"/> Amazing </label></div>
+    </div>
+      <!--15-->
+      <div><label><p class="spacing">Any comments on how i can improve?</p Class="marginP" ><textarea class="alone2" placeholder="Enter your comment here" ></textarea  ></label>
+      <!--16-->
+      <div class="buttonHolder"><input type="submit" id="submit">
+    </form></div>
+    </div>
+
+  </body>
+</html>
